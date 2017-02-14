@@ -5,20 +5,27 @@
 __Evaluate your chatbot.__ Here, you should show some qualitative examples as well as train and test loss. Furthermore, try to be creative and see if you can make a metric for how well your chatbot is doing.
 
 - good qualitative examples
+
 User: "hey"
 
 Bot: "good morning all"
+
 
 User:  "how are you."
 
 Bot: "i ' m ok . thanks ."
 
+
 User: "who is hillary clinton?"
 
 Bot: "hillary is the one who cares ."
 
-User: 
-Bot:
+
+User: "you are sweet"
+
+Bot:  "i am a good friend ."
+
+
 User:
 Bot:
 User:
