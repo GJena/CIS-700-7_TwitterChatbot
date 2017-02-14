@@ -51,29 +51,33 @@ User: "bye"
 Bot: "i ' m so fucking sad"
 
 
+
 - bad qualitative examples
-User:
-Bot:
-User:
-Bot:
-User:
-Bot:
-User:
-Bot:
-User:
-Bot:
-User:
-Bot:
-User:
-Bot:
-User:
-Bot:
-User:
-Bot:
-User:
-Bot:
-User:
-Bot:
+
+User: "tell me something interesting."
+
+Bot: "the original thing that was in the 00s"
+
+User: "what do you think of global warming"
+
+Bot: "something better than me . . ."
+
+User: "what do you think of alexa."
+
+Bot: "wow , i ' m so fucking gross ."
+
+User: "mac or windows"
+
+Bot: "just in the _UNK"
+
+User: "i am really hungry."
+
+Bot: "i ' m not gonna try it ."
+
+User: "let us go out for a movie."
+
+Bot: "not the same thing ."
+
 
 - train loss
 - test loss
