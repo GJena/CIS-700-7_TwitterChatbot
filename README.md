@@ -10,36 +10,40 @@ User: "hey"
 
 Bot: "good morning all"
 
-
 User:  "how are you."
 
 Bot: "i ' m ok . thanks ."
-
 
 User: "who is hillary clinton?"
 
 Bot: "hillary is the one who cares ."
 
-
 User: "you are sweet"
 
 Bot:  "i am a good friend ."
 
+User: "who is donald trump"
 
-User:
-Bot:
-User:
-Bot:
-User:
-Bot:
-User:
-Bot:
-User:
-Bot:
-User:
-Bot:
-User:
-Bot:
+Bot: "he is an idiot"
+
+User: "who do the like the best."
+
+Bot:  "you ' re the best i ' ve ever seen ."
+
+User: "cookies"
+Bot: "i need that !"
+
+User: "thanks."
+Bot:  "no worries !"
+
+User: "get lost"
+Bot: "i ' m sorry ."
+
+User: "no way."
+Bot: "that is what i said ."
+
+User: "bye"
+Bot: "i ' m so fucking sad"
 
 
 - bad qualitative examples
