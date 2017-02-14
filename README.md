@@ -8,7 +8,11 @@ __Evaluate your chatbot.__ Here, you should show some qualitative examples as we
 - bad qualitative examples
 - train loss
 - test loss
-- our own metric
-Since it is not task based, it is harder to evaluate, we cannot just use task completion metrics
-
+- Our own metric
+Since it is not task based, it is harder to evaluate, we cannot just use task completion metrics. 
+A combination of metrics may be best to evaluate the general purpose bot. Some candidate metrics could be:
+ - Distance in word2vec embedding
+ - Confusion metrics: how often it returns ‘I don’t know’ or UNK?
+ - Sentiment analysis on user answers
+ 
 __Identify issues__ with your chatbot and suggest possible solutions and future work.
