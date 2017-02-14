@@ -31,18 +31,23 @@ User: "who do the like the best."
 Bot:  "you ' re the best i ' ve ever seen ."
 
 User: "cookies"
+
 Bot: "i need that !"
 
 User: "thanks."
+
 Bot:  "no worries !"
 
 User: "get lost"
+
 Bot: "i ' m sorry ."
 
 User: "no way."
+
 Bot: "that is what i said ."
 
 User: "bye"
+
 Bot: "i ' m so fucking sad"
 
 
