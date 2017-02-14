@@ -8,11 +8,16 @@ __Evaluate your chatbot.__ Here, you should show some qualitative examples as we
 User: "hey"
 
 Bot: "good morning all"
+
 User:  "how are you."
+
 Bot: "i ' m ok . thanks ."
+
+User: "who is hillary clinton?"
+
+Bot: "hillary is the one who cares ."
+
 User: 
-Bot:
-User:
 Bot:
 User:
 Bot:
