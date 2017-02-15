@@ -4,8 +4,7 @@
 
 Chatbot trained on Twitter dataset as part of Homework 3 for CIS 700-7. It has been integrated with the 'chat' skill on Alexa.
 
-### Evaluation of chatbot ### 
-
+### Evaluation of chatbot
 There are different aspects we considered for evaluation of our chatbot. First we present a qualitative evaluation along with good and bad examples.
 
 __Good sample conversation__
@@ -86,6 +85,8 @@ The replies of the bot in the above conversation, while mostly gramatically corr
 
 __Train loss__
 
+Cross entropy was used as the loss function during training.
+
 __Test loss__
 
 __Possible metrics__
@@ -95,7 +96,7 @@ A combination of metrics may be best to evaluate the general purpose bot. Some c
  - Confusion metrics: how often it returns ‘I don’t know’ or UNK?
  - Sentiment analysis on user answers
  
-### Issues and possible solutions ### 
+### Issues and possible solutions
 
 
-### Future work ###
+### Future work
