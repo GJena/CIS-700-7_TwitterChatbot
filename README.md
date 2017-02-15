@@ -7,7 +7,11 @@ Chatbot trained on Twitter dataset as part of Homework 3 for CIS 700-7. It has b
 ### Evaluation of chatbot
 There are different aspects we considered for evaluation of our chatbot. First we present a qualitative evaluation along with good and bad examples.
 
-__Good sample conversation__
+__Good sample conversations__
+
+User | Bot
+--- | ---
+"hey" | "good morning all"
 
 User: "hey"
 
