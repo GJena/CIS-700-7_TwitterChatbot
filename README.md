@@ -2,9 +2,13 @@
 
 ## Homework 3
 
-__Evaluate your chatbot.__ Here, you should show some qualitative examples as well as train and test loss. Furthermore, try to be creative and see if you can make a metric for how well your chatbot is doing.
+Chatbot trained on Twitter dataset as part of Homework 3 for CIS 700-7. It has been integrated with the 'chat' skill on Alexa.
 
-- good qualitative examples
+### Evaluation of chatbot ### 
+
+There are different aspects we considered for evaluation of our chatbot. First we present a qualitative evaluation along with good and bad examples.
+
+__Good sample conversation__
 
 User: "hey"
 
@@ -50,9 +54,9 @@ User: "bye"
 
 Bot: "i ' m so fucking sad"
 
+The replies of the bot in the above conversation seem relevant and coherent. Some responses might even convince a witness that a human was talking.
 
-
-- bad qualitative examples
+__Bad sample conversation__
 
 User: "tell me something interesting."
 
@@ -78,14 +82,20 @@ User: "let us go out for a movie."
 
 Bot: "not the same thing ."
 
+The replies of the bot in the above conversation, while mostly gramatically correct, don't make sense. The bot isn't able to give satisfactory responses to the user. In one case , 'UNK' i.e. the unknown token also comes up.
 
-- train loss: Used cross entropy loss function.  
+__Train loss__
 
-- Our own metric
+__Test loss__
+
+__Possible metrics__
 Since it is not task based, it is harder to evaluate, we cannot just use task completion metrics. 
 A combination of metrics may be best to evaluate the general purpose bot. Some candidate metrics could be:
  - Distance in word2vec embedding
  - Confusion metrics: how often it returns ‘I don’t know’ or UNK?
  - Sentiment analysis on user answers
  
-__Identify issues__ with your chatbot and suggest possible solutions and future work.
+### Issues and possible solutions ### 
+
+
+### Future work ###
