@@ -12,6 +12,16 @@ __Good sample conversations__
 User | Bot
 --- | ---
 "hey" | "good morning all"
+"how are you." | "i ' m ok . thanks ."
+"who is hillary clinton?" | "hillary is the one who cares ."
+"you are sweet" | "i am a good friend "
+"" | ""
+"" | ""
+"" | ""
+"" | ""
+"" | ""
+"" | ""
+"" | ""
 
 User: "hey"
 
