@@ -79,8 +79,8 @@ User: "let us go out for a movie."
 Bot: "not the same thing ."
 
 
-- train loss
-- test loss
+- train loss: Used cross entropy loss function.  
+
 - Our own metric
 Since it is not task based, it is harder to evaluate, we cannot just use task completion metrics. 
 A combination of metrics may be best to evaluate the general purpose bot. Some candidate metrics could be:
