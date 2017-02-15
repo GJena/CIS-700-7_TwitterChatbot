@@ -15,57 +15,13 @@ User | Bot
 "how are you." | "i ' m ok . thanks ."
 "who is hillary clinton?" | "hillary is the one who cares ."
 "you are sweet" | "i am a good friend "
-"" | ""
-"" | ""
-"" | ""
-"" | ""
-"" | ""
-"" | ""
-"" | ""
-
-User: "hey"
-
-Bot: "good morning all"
-
-User:  "how are you."
-
-Bot: "i ' m ok . thanks ."
-
-User: "who is hillary clinton?"
-
-Bot: "hillary is the one who cares ."
-
-User: "you are sweet"
-
-Bot:  "i am a good friend ."
-
-User: "who is donald trump"
-
-Bot: "he is an idiot"
-
-User: "who do the like the best."
-
-Bot:  "you ' re the best i ' ve ever seen ."
-
-User: "cookies"
-
-Bot: "i need that !"
-
-User: "thanks."
-
-Bot:  "no worries !"
-
-User: "get lost"
-
-Bot: "i ' m sorry ."
-
-User: "no way."
-
-Bot: "that is what i said ."
-
-User: "bye"
-
-Bot: "i ' m so fucking sad"
+"who is donald trump" | "he is an idiot"
+"who do the like the best." | you ' re the best i ' ve ever seen .
+"cookies" | "i need that !"
+"thanks." | "no worries !"
+"get lost" | "i ' m sorry ."
+"no way." | "that is what i said ."
+"bye" | "i ' m so fucking sad"
 
 The replies of the bot in the above conversation seem relevant and coherent. Some responses might even convince a witness that a human was talking.
 
