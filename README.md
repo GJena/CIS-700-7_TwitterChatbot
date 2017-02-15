@@ -23,35 +23,20 @@ User | Bot
 "no way." | "that is what i said ."
 "bye" | "i ' m so fucking sad"
 
-The replies of the bot in the above conversation seem relevant and coherent. Some responses might even convince a witness that a human was talking.
+The replies of the bot seem relevant and coherent. Some responses might even convince a witness that a human was talking.
 
-__Bad sample conversation__
+__Bad sample conversations__
 
-User: "tell me something interesting."
+User | Bot
+--- | ---
+"tell me something interesting" | "the original thing that was in the 00s"
+"what do you think of global warming" | "something better than me . . ."
+"what do you think of alexa." | "wow , i ' m so fucking gross ."
+"mac or windows" | "just in the UNK"
+"i am really hungry." | "i ' m not gonna try it ."
+"let us go out for a movie." | "not the same thing ."
 
-Bot: "the original thing that was in the 00s"
-
-User: "what do you think of global warming"
-
-Bot: "something better than me . . ."
-
-User: "what do you think of alexa."
-
-Bot: "wow , i ' m so fucking gross ."
-
-User: "mac or windows"
-
-Bot: "just in the _UNK"
-
-User: "i am really hungry."
-
-Bot: "i ' m not gonna try it ."
-
-User: "let us go out for a movie."
-
-Bot: "not the same thing ."
-
-The replies of the bot in the above conversation, while mostly gramatically correct, don't make sense. The bot isn't able to give satisfactory responses to the user. In one case , 'UNK' i.e. the unknown token also comes up.
+The replies of the bot , while mostly gramatically correct, don't make sense. The bot isn't able to give satisfactory responses to the user. In one case , 'UNK' i.e. the unknown token also comes up.
 
 __Train loss__
 
