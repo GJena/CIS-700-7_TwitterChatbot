@@ -44,6 +44,12 @@ Cross entropy was used as the loss function during training. 10% of the data was
 Training and cross validation loss was observed after every 200 epochs.  A set of 15 dialogs was created to test the model based on the response generated. This was done after every 2 hours.
 Interestingly, minimum cross validation perplexity did not give the best model (in terms of the response generated). 
 
+Train perplexity: 14.91
+eval: bucket 0 perplexity 62.31
+eval: bucket 1 perplexity 68.73
+eval: bucket 2 perplexity 70.96
+eval: bucket 3 perplexity 66.86
+
 __Possible metrics__
 Since it is not task based, it is harder to evaluate, we cannot just use task completion metrics. 
 A combination of metrics may be best to evaluate the general purpose bot. Some candidate metrics could be:
