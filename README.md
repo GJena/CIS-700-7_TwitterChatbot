@@ -45,9 +45,13 @@ Training and cross validation loss was observed after every 200 epochs.  A set o
 Interestingly, minimum cross validation perplexity did not give the best model (in terms of the response generated). 
 
 Train perplexity: 14.91
+
 eval: bucket 0 perplexity 62.31
+
 eval: bucket 1 perplexity 68.73
+
 eval: bucket 2 perplexity 70.96
+
 eval: bucket 3 perplexity 66.86
 
 __Possible metrics__
