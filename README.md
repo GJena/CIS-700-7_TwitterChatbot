@@ -61,20 +61,28 @@ Since the bot is not task based but free-form, it is harder to evaluate as we ca
 - Relation: speaker’s utterance is relevant to the context and the topic of the conversation
 - Manner: speaker’s utterance is direct and straightforward
 
-
 In light of these maxims, some candidate metrics could be:
  - Distance in sentence embeddings
- - Confusion metrics: how often it returns ‘I don’t know’ or UNK or a similar response
- - Sentiment analysis on user answers
- - Syntax tree of the generated response.
- - Length of the response (to avoid very short and very long answers).
- - Syntax tree of the generated response.
- - Overlap of topics in the entire user's dialog and the entire bot's response.
+ - Confusion metric: how often it returns ‘I don’t know’ or UNK or a similar response
+ - Syntax tree of the generated response
+ - Length of the response (to avoid very short and very long answers)
+ - Syntax tree of the generated response
+ - Overlap of topics in the entire user's dialog and the entire bot's response to ensure relevancy
+ - Number of unique tokens to measure information gain
  
+### Issues and possible solutions
+
+Issue: The bot response varies depending on the presence/absence of punctuations.
+Possible solution: Use TweetTokenizer to remove emoticons and punctuations (apart from '.', since AMAZON.LITERAL does not capture other punctuations).
+
+Issue: Lowest perplexity doesn't guarantee the best model.
+Possible solution: Use a more appropriate loss function or a better metric to evaluate the model.
+
+Issue: The chatbot doesn't remember previous statements and has no understanding of context.
+Possible solution: Incorporate memory for recollection and context of conversation.
  
 ### Future work
-Use TweetTokenizer.
-
-Remove smileys and punctuations (apart from '.', since AMAZON.LITERAL does not capture other punctuations). 
+ 
+Future work consists of dealing with the above-mentioned issues. Alternative datasets can be considered to cover a wider range of topics for training. A reinforcement architecture can also be added to inculcate feedback from the users into the model, which may include sentiment/tone analysis. User-specific personalities can be created for the bot which come into play for a given person. The twitter chatbot can also be compared with other bots like ALICE, TickTock. 
 
 
