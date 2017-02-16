@@ -60,10 +60,12 @@ A combination of metrics may be best to evaluate the general purpose bot. Some c
  - Distance in word2vec embedding
  - Confusion metrics: how often it returns ‘I don’t know’ or UNK?
  - Sentiment analysis on user answers
+ - Syntax tree of the generated response.
+ - Length of the response (to avoid very short and very long answers).
+ - Syntax tree of the generated response.
+ - Overlap of topics in the entire user's dialog and the entire bot's response.
  
-### Issues and possible solutions
-
-
+ 
 ### Future work
 Use TweetTokenizer.
 Remove smileys and punctuations (apart from '.', since AMAZON.LITERAL does not capture other punctuations). 
