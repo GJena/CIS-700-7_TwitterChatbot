@@ -72,13 +72,11 @@ In light of these maxims, some candidate metrics could be:
  
 ### Issues and possible solutions
 
-**Issue:** The bot response varies depending on the presence/absence of punctuations. **Possible solution:**** Use TweetTokenizer to remove emoticons and punctuations (apart from '.', since AMAZON.LITERAL does not capture other punctuations).
+**Issue:** The bot response varies depending on the presence/absence of punctuations. **Possible solution:** Use TweetTokenizer to remove emoticons and punctuations (apart from '.', since AMAZON.LITERAL does not capture other punctuations).
 
-**Issue:** Lowest perplexity doesn't guarantee the best model. 
-**Possible solution:** Use a more appropriate loss function or a better metric to evaluate the model.
+**Issue:** Lowest perplexity doesn't guarantee the best model. **Possible solution:** Use a more appropriate loss function or a better metric to evaluate the model.
 
-**Issue:** The chatbot doesn't remember previous statements and has no understanding of context.
-**Possible solution:** Incorporate memory for recollection and context of conversation.
+**Issue:** The chatbot doesn't remember previous statements and has no understanding of context. **Possible solution:** Incorporate memory for recollection and context of conversation.
  
 ### Future work
  
