@@ -66,7 +66,6 @@ In light of these maxims, some candidate metrics could be:
  - Confusion metric: how often it returns ‘I don’t know’ or UNK or a similar response
  - Syntax tree of the generated response
  - Length of the response (to avoid very short and very long answers)
- - Syntax tree of the generated response
  - Overlap of topics in the entire user's dialog and the entire bot's response to ensure relevancy
  - Number of unique tokens to measure information gain
  
