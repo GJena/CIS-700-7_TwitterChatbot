@@ -73,7 +73,7 @@ In light of these maxims, some candidate metrics could be:
 ### Issues and possible solutions
 
 Issue: The bot response varies depending on the presence/absence of punctuations. 
-Possible solution: Use TweetTokenizer to remove emoticons and punctuations (apart from '.', since AMAZON.LITERAL does not capture other punctuations).
+ Possible solution: Use TweetTokenizer to remove emoticons and punctuations (apart from '.', since AMAZON.LITERAL does not capture other punctuations).
 
 Issue: Lowest perplexity doesn't guarantee the best model.
 
