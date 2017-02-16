@@ -40,9 +40,9 @@ The replies of the bot , while mostly gramatically correct, don't make sense. Th
 
 __Train loss__
 
-Cross entropy was used as the loss function during training.
-
-__Test loss__
+Cross entropy was used as the loss function during training. 10% of the data was used for cross validation. 
+Training and cross validation loss was observed after every 200 epochs.  A set of 15 dialogs was created to test the model based on the response generated. This was done after every 2 hours.
+Interestingly, minimum cross validation perplexity did not give the best model (in terms of the response generated). 
 
 __Possible metrics__
 Since it is not task based, it is harder to evaluate, we cannot just use task completion metrics. 
