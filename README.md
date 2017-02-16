@@ -55,10 +55,16 @@ eval: bucket 2 perplexity 70.96
 eval: bucket 3 perplexity 66.86
 
 __Possible metrics__
-Since it is not task based, it is harder to evaluate, we cannot just use task completion metrics. 
-A combination of metrics may be best to evaluate the general purpose bot. Some candidate metrics could be:
- - Distance in word2vec embedding
- - Confusion metrics: how often it returns ‘I don’t know’ or UNK?
+Since the bot is not task based but free-form, it is harder to evaluate as we cannot just use task completion metrics. A combination of metrics may be best to evaluate the general purpose bot. According to Grice's maxims, effective communication in conversation can be achieved by:
+- Quality: speaker’s utterance is the truth as provable by adequate contextual evidence or domain facts
+- Quantity: speaker utterance provides as much information as appropriate, not more, not less
+- Relation: speaker’s utterance is relevant to the context and the topic of the conversation
+- Manner: speaker’s utterance is direct and straightforward
+
+
+In light of these maxims, some candidate metrics could be:
+ - Distance in sentence embeddings
+ - Confusion metrics: how often it returns ‘I don’t know’ or UNK or a similar response
  - Sentiment analysis on user answers
  - Syntax tree of the generated response.
  - Length of the response (to avoid very short and very long answers).
